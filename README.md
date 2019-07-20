@@ -57,3 +57,6 @@ call other npm scripts from another
 
 LESSON 19:
 add webpack-bundle-analyzer
+
+LESSON 20:
+get the react code from a CDN...but only in PROD
