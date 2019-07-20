@@ -27,3 +27,10 @@ configure Babel to transform the files before we run npm run build using Babel l
 LESSON 9:
 add in React
 configure babel to use preset-react to compile JSX before the build process
+
+LESSON 10: 
+add a Javascript bundle with a webpack plugin. This one injects our JS tag into a template we pass to the HTMLWebpackPlugin plugin in webpack.
+
+LESSON 11: 
+configure webpack to run in dev watch mode. Also configure a handy script to make it do this.
+
