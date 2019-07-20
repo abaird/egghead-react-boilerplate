@@ -11,3 +11,8 @@ we can add a script in the package.json file to run webpack with the defaults. A
 
 we want to ignore dist and node_modules in git because they are compiled directories
 
+LESSON 5:
+add webpack.config.js which tells webpack where to find our entrypoint(?) and tells it where to put our output (which is default but we're typing this just to be explicit).
+
+LESSON 6:
+where we add the mode flag to webpack.config.js
