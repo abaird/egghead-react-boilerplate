@@ -60,3 +60,7 @@ add webpack-bundle-analyzer
 
 LESSON 20:
 get the react code from a CDN...but only in PROD
+
+LESSON 21:
+use babel-polyfill to back port new JS features to older browsers. Used the npx browserslist command to figure out which specific browsers to support.
+
