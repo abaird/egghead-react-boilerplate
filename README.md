@@ -21,3 +21,6 @@ LESSON 7:
 installed Babel and figured out how to transform the output using the babel executable like so:
 $(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
 
+LESSON 8: 
+configure Babel to transform the files before we run npm run build using Babel loader. Configuration is in the module key in the object exported in webpack.config.js.
+
