@@ -39,3 +39,6 @@ Splitting config into a production config and a dev config. We configure a base 
 
 LESSON 13:
 install webpack-dev-server which autobuilds changes and reloads the browser. Add options in the webpack.config.dev.js file to control the port and an option in package.json to automatically open a webpage to the webpack-dev-server.
+
+LESSON 14:
+Add the ability to debug source in dev mode by adding the source-map value to the devtool key in the config.
