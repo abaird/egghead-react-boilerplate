@@ -45,3 +45,7 @@ Add the ability to debug source in dev mode by adding the source-map value to th
 
 LESSON 15: 
 Add the plugin-proposal-class-properties to our babel config to support local state in our React component.
+
+LESSON 16:
+import css using the style and css loaders in webpack.
+
