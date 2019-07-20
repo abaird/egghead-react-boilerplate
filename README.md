@@ -34,3 +34,5 @@ add a Javascript bundle with a webpack plugin. This one injects our JS tag into 
 LESSON 11: 
 configure webpack to run in dev watch mode. Also configure a handy script to make it do this.
 
+LESSON 12:
+Splitting config into a production config and a dev config. We configure a base config file and then use webpack-merge to splice the base config file with overrides for PROD and DEV.
