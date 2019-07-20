@@ -36,3 +36,6 @@ configure webpack to run in dev watch mode. Also configure a handy script to mak
 
 LESSON 12:
 Splitting config into a production config and a dev config. We configure a base config file and then use webpack-merge to splice the base config file with overrides for PROD and DEV.
+
+LESSON 13:
+install webpack-dev-server which autobuilds changes and reloads the browser. Add options in the webpack.config.dev.js file to control the port and an option in package.json to automatically open a webpage to the webpack-dev-server.

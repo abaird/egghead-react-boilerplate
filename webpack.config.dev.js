@@ -1,26 +1,9 @@
-const path = require('path')  // this is node's path library
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const merge = require('webpack-merge')
+const baseConfig = require('./webpack.config.base')
 
-module.exports = {
-  mode: 'production',
-  entry: './src/index.js',
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'app.bundle.js'
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-        options: {
-          presets: ['@babel/preset-env', '@babel/preset-react']
-        }
-      }
-    ]
-  },
-  plugins: [new HtmlWebpackPlugin({
-    template: './src/index.html'
-  })]
-}
+module.exports = merge(baseConfig, {
+  mode: 'development',
+  devServer: {
+    port: 9000
+  }
+})
