@@ -1,0 +1,11 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "description": "For Egghead course Modern Javascript Tooling with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Baird",
+  "license": "ISC"
+}
