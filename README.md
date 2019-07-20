@@ -51,3 +51,9 @@ import css using the style and css loaders in webpack.
 
 LESSON 17:
 add hot module reloading. Updated package.json to have a new script dev:hot, updated webpack.config.base to include the new plugin and added the HOC code to App.js.
+
+LESSON 18: 
+call other npm scripts from another
+
+LESSON 19:
+add webpack-bundle-analyzer
