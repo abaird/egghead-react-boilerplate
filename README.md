@@ -16,3 +16,8 @@ add webpack.config.js which tells webpack where to find our entrypoint(?) and te
 
 LESSON 6:
 where we add the mode flag to webpack.config.js
+
+LESSON 7:
+installed Babel and figured out how to transform the output using the babel executable like so:
+$(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
+
