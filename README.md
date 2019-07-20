@@ -42,3 +42,6 @@ install webpack-dev-server which autobuilds changes and reloads the browser. Add
 
 LESSON 14:
 Add the ability to debug source in dev mode by adding the source-map value to the devtool key in the config.
+
+LESSON 15: 
+Add the plugin-proposal-class-properties to our babel config to support local state in our React component.
