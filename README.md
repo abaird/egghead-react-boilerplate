@@ -87,3 +87,6 @@ add accessibility to the linter
 
 LESSON 29:
 add a git pre-commit hook. This doesn't appear to work for me since I already have one??
+
+LESSON 30:
+Use React.StrictMode to get warnings about unsafe lifecycle methods
