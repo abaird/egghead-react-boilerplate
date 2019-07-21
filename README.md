@@ -90,3 +90,9 @@ add a git pre-commit hook. This doesn't appear to work for me since I already ha
 
 LESSON 30:
 Use React.StrictMode to get warnings about unsafe lifecycle methods
+
+LESSON 31:
+Use DefaultErrorBoundary to render custom error messages when there are errors on a React page.
+
+LESSON 32:
+add a propType to keep the linter happy
