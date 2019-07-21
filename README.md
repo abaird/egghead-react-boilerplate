@@ -99,3 +99,6 @@ add a propType to keep the linter happy
 
 LESSON 33:
 Add in the Axe accesssibility violoation detector - fix broke stuff
+
+LESSON 34:
+Get ready for boilerplating
