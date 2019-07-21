@@ -96,3 +96,6 @@ Use DefaultErrorBoundary to render custom error messages when there are errors o
 
 LESSON 32:
 add a propType to keep the linter happy
+
+LESSON 33:
+Add in the Axe accesssibility violoation detector - fix broke stuff
