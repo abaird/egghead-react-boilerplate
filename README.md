@@ -84,3 +84,6 @@ eslint allthethings
 
 LESSON 28:
 add accessibility to the linter
+
+LESSON 29:
+add a git pre-commit hook. This doesn't appear to work for me since I already have one??
