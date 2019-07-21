@@ -64,3 +64,8 @@ get the react code from a CDN...but only in PROD
 LESSON 21:
 use babel-polyfill to back port new JS features to older browsers. Used the npx browserslist command to figure out which specific browsers to support.
 
+LESSON 22: 
+use a webpack plugin to support dynamic loading of modules only when you need it. Uses Suspense to control when components are supposed to load dynamically.
+
+LESSON 23: 
+add Jest tests!
