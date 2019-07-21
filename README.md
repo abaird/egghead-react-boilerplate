@@ -78,3 +78,9 @@ reduce boilerplate configuration in Jest tests by moving common setup to jest.co
 
 LESSON 26:
 configure prettier for auto formatting
+
+LESSON 27:
+eslint allthethings
+
+LESSON 28:
+add accessibility to the linter
