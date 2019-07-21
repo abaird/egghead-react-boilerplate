@@ -1,4 +1,4 @@
-const path = require('path')  // this is node's path library
+const path = require('path') // this is node's path library
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -21,7 +21,9 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin({
-    template: './src/index.html'
-  })]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
+    })
+  ]
 }
