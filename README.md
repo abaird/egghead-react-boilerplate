@@ -72,3 +72,7 @@ add Jest tests!
 
 LESSON 24:
 add some real Jest tests. Also use babel-plugin-dynamic-import-node in order to use import style syntax (but didn't fail for me in the newest version). Moved babel specific stuff out of webpack and into .babelrc
+
+LESSON 25:
+reduce boilerplate configuration in Jest tests by moving common setup to jest.config.js and requiring teh testSetup.js file
+
