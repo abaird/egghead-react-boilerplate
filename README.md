@@ -19,19 +19,19 @@ where we add the mode flag to webpack.config.js
 
 LESSON 7:
 installed Babel and figured out how to transform the output using the babel executable like so:
-$(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
+\$(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
 
-LESSON 8: 
+LESSON 8:
 configure Babel to transform the files before we run npm run build using Babel loader. Configuration is in the module key in the object exported in webpack.config.js.
 
 LESSON 9:
 add in React
 configure babel to use preset-react to compile JSX before the build process
 
-LESSON 10: 
+LESSON 10:
 add a Javascript bundle with a webpack plugin. This one injects our JS tag into a template we pass to the HTMLWebpackPlugin plugin in webpack.
 
-LESSON 11: 
+LESSON 11:
 configure webpack to run in dev watch mode. Also configure a handy script to make it do this.
 
 LESSON 12:
@@ -43,7 +43,7 @@ install webpack-dev-server which autobuilds changes and reloads the browser. Add
 LESSON 14:
 Add the ability to debug source in dev mode by adding the source-map value to the devtool key in the config.
 
-LESSON 15: 
+LESSON 15:
 Add the plugin-proposal-class-properties to our babel config to support local state in our React component.
 
 LESSON 16:
@@ -52,7 +52,7 @@ import css using the style and css loaders in webpack.
 LESSON 17:
 add hot module reloading. Updated package.json to have a new script dev:hot, updated webpack.config.base to include the new plugin and added the HOC code to App.js.
 
-LESSON 18: 
+LESSON 18:
 call other npm scripts from another
 
 LESSON 19:
@@ -64,10 +64,10 @@ get the react code from a CDN...but only in PROD
 LESSON 21:
 use babel-polyfill to back port new JS features to older browsers. Used the npx browserslist command to figure out which specific browsers to support.
 
-LESSON 22: 
+LESSON 22:
 use a webpack plugin to support dynamic loading of modules only when you need it. Uses Suspense to control when components are supposed to load dynamically.
 
-LESSON 23: 
+LESSON 23:
 add Jest tests!
 
 LESSON 24:
@@ -76,3 +76,5 @@ add some real Jest tests. Also use babel-plugin-dynamic-import-node in order to 
 LESSON 25:
 reduce boilerplate configuration in Jest tests by moving common setup to jest.config.js and requiring teh testSetup.js file
 
+LESSON 26:
+configure prettier for auto formatting
