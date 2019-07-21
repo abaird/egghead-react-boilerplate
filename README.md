@@ -69,3 +69,6 @@ use a webpack plugin to support dynamic loading of modules only when you need it
 
 LESSON 23: 
 add Jest tests!
+
+LESSON 24:
+add some real Jest tests. Also use babel-plugin-dynamic-import-node in order to use import style syntax (but didn't fail for me in the newest version). Moved babel specific stuff out of webpack and into .babelrc
